@@ -115,7 +115,7 @@ nav button {
   height: 7px;
   background-color: rgb(46, 44, 44);
   position: relative;
-  z-index: 20;
+  z-index: 10;
 }
 
 .btn {
@@ -297,6 +297,17 @@ footer p {
     justify-content: space-between;
     font-size: 6px;
     padding-left: 7px;
+  }
+  .main input {
+    padding: 9px 11px 11px 12px;
+    color: white;
+    font-size: 12px;
+  }
+  .btn-red {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
   }
 }
 @media (min-width: 1024px) {
