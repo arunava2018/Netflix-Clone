@@ -10,7 +10,6 @@ for (let i = 0; i < accordian.length; i++) {
       this.childNodes[1].classList.remove("fa-times");
       this.childNodes[1].classList.add("fa-plus");
     }
-
     let content = this.nextElementSibling;
     //console.log(content);
     if (content.style.maxHeight) {
